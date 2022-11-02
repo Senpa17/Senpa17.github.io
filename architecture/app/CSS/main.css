@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+h1, h2 {
+			text-align: left;
+			padding  0 66px;
+			font-family: 'Jost', sans-serif
+
+		}
+		footer{
+			text-align: center;
+			color: yellow;
+			font-size: 14px;
+		}
+		h3{
+			text-align: center;
+			border: 1px solid;
+			border-radius: 6px;
+			padding: 5px;
+			margin: 30px 0;
+			font-family: 'Jost', sans-serif;
+			font-size: 25px;
+			opacity: 1;
+			transition: .6s;
+		}
+		.mhead{
+			background-image: url(../img/image1.jpg);
+			height: 424px;
+			background-position: center;
+			background-size: cover;
+
+		}
+.moscowexample{
+	background-color: #7f7679;
+	color: #fcfcee;
+	font-size: 24px;
+
+}
+.ncity{
+	background-color: #7f7679;
+	color: #fcfcee;
+	font-size: 20px;
+
+}
+li{
+	margin-top: 20px;
+}
+.content {
+	width: 70%;
+	margin: auto;
+	background-color: #efdecd;
+	box-shadow: 0 10px 10px 1px rgba(0,0,0,0.5);
+	border-radius: 8px;
+
+}
+html{
+	background-color: #898176;
+
+}
+ul{
+	padding-left: 30px;
+}
+img{
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.6);
+	width: 100%;
+	height: auto;
+}
+.t3{
+	margin-top: 0;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);
+	opaity: 1;
+}
+.t3:hover{
+	opacity: 0.6;
+	
+}
+.t3:active{
+	box-shadow: none
+}
+.menu{
+	width: 100%;
+	padding: 16px 0;
+	background-color: #a3a27a;
+	margin-bottom: 22px;
+}
+.menu td{
+	text-align: center;
+
+	max-width: 48px;
+}
+button{
+	font-size: 15px;
+	padding: 5px 15px;
+	border-radius: 36px;
+	font-family: 'Jost', sans-serif;
+}
+.menu button:hover{
+	transform: scale(1.1);
+	transition: 0.6s;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);
+	color: grey;
+	background-color: cyan;
+}
+.menu button:active{
+	color: white;
+	background-color: black;
+
+}
+p{
+	margin: 30px 0;
+	font-family: 'Merriweather', serif;
+}
+ul{
+	font-family: 'Merriweather', serif;
+}
+.infa{
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+}
+.infa tbody tr:nth-child(odd){
+	color:#fcfcee;
+	background-color: #7f7679;
+
+}
+.t2:hover{
+	text-decoration: underline;  
+}
+.t2:active{
+	color: grey;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сталинский ампир</title>
+	<link rel="stylesheet" href="CSS/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jost&family=Merriweather&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function superClick(el) {
+			el.style.background = 'red';
+			el.style.color = 'white';
+		}
+		var h3Showed = false;
+		function cheD() {
+			const he3 = document.getElementById("1");
+			he3.style.display=h3Showed ?'block' : 'none';
+			h3Showed = !h3Showed;
+		}
+	</script>
+
+</head>
+<body>
+	<div class="mhead">
+<h1><font color="purple" >Имперский</font> советский стиль</h1>
+<h2>апогей классики и неоклассики</h2>
+</div>
+<div>
+	<nav>
+	<table class="menu">
+		<tr>
+			<td><a href="index.html"><button>Главная</button></a></td>
+			<td><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>...</button></a></td>
+			<td><a href="aboutme.html"><button>О создателе</button></a></td>
+		</tr>
+	</table>
+	</nav>
+</div>
+<div class="content">
+<hr/>
+<h3 class="t3" onClick="cheD(this)"><font color="red" >Сталинский</font> ампир</h3>
+<div style="display: none;" id="1">
+<ul>
+	<li><b>Сталинский ампир</b> (от французского empire – империя) — одно из основных направлений архитектуры СССР с середины 1940-х и вплоть до 1955-го года.</li>
+	<li><b>В средствах массовой информации</b> зачастую используется как неформальное обозначение многообразия архитектуры данного отрезка времени.</li>
+	<li><b>Для стиля</b> характерно использование архитектурных ордеров с чёткими пропорциями и обильным декором.</li>
+	 <li>Тогда архитектура была <b>идеологическим инструментом</b>, передающим "стремление в светлое будущее".</li>
+</ul>
+	
+</div>
+<div>
+	<h3 id="1">Основные примеры и признаки</h3>
+	<p class="moscowexample" onClick="superClick(this)">Главные постройки данного стиля, по совместительству являющиеся его символом — знаменитые сталинские высотки(семь высотных зданий различного назначения, строившихся на территории Москвы с 1947-го по 1957 годы.).</p>
+	<img src="img/image.jpg" alt="">
+	<table class="infa" border="1">
+	<thead>
+		<tr>
+			<th>Характеристика</th>
+			<th>Значение</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Годы активного использования</td>
+			<td>1945-1955</td>
+		</tr>
+		<tr>
+			<td>Простой и яркий пример</td>
+			<td>Здание МИД</td>
+		</tr>
+		<tr>
+			<td>Причины упразднения</td>
+			<td>Постановление «Об устранении излишеств в проектировании и строительстве».</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+<div>
+	<h3 id="1" class="t2">Примеры из архитектуры Челябинска</h3>
+	<p class="ncity"></p>
+</div>
+</div>
+<footer>Горелов Евгений, никакие права не защищены.</footer>
+</body>
+</html>
